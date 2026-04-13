@@ -1,0 +1,15 @@
+$TTL 86400
+@   IN  SOA ns.l2-2.ephec-ti.be. admin.l2-2.ephec-ti.be. (
+        2026031902
+        3600
+        1800
+        604800
+        86400 )
+
+@   IN  NS  ns.l2-2.ephec-ti.be.
+
+ns  IN  A   91.134.137.143
+www IN  A   91.134.137.143
+www IN  AAAA 2001:41d0:305:2100::1:132e
+blog IN A   91.134.137.143
+blog IN AAAA 2001:41d0:305:2100::1:132e
