@@ -1,0 +1,13 @@
+2.1$TTL    604800
+@       IN      SOA     l2-2.ephec-ti.be. root.l2-2.ephec-ti.be. (
+                              1         ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+;
+@       IN      NS      l2-2.ephec-ti.be.
+@       IN      A       91.134.137.209
+www     IN      A       91.134.137.209
+
+mail    IN      A       91.134.137.209

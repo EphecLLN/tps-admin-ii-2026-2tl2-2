@@ -1,0 +1,12 @@
+Return-Path: <root@mail.l2-2.ephec-ti.be>
+Delivered-To: noah@l2-2.ephec-ti.be
+Received: from mail.l2-2.ephec-ti.be
+	by mail.l2-2.ephec-ti.be with LMTP
+	id 2DfVFWRY1mlvBAAAs8Qtnw
+	(envelope-from <root@mail.l2-2.ephec-ti.be>)
+	for <noah@l2-2.ephec-ti.be>; Wed, 08 Apr 2026 15:30:12 +0200
+Received: by mail.l2-2.ephec-ti.be (Postfix, from userid 0)
+	id 578A8280071; Wed,  8 Apr 2026 15:30:12 +0200 (CEST)
+Message-Id: <20260408133012.578A8280071@mail.l2-2.ephec-ti.be>
+Date: Wed,  8 Apr 2026 15:30:12 +0200 (CEST)
+From: root <root@mail.l2-2.ephec-ti.be>

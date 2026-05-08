@@ -1,0 +1,7 @@
+# System files
+.bash_history
+.bashrc
+.bash_logout
+.profile
+.ssh/
+.viminfo

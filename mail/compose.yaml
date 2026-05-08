@@ -1,0 +1,23 @@
+services:
+  mailserver:
+    image: ghcr.io/docker-mailserver/docker-mailserver:latest
+    hostname: mail.l2-2.ephec-ti.be    # ← CHANGEZ ICI
+    domainname: l2-2.ephec-ti.be        # ← AJOUTEZ CETTE LIGNE
+    container_name: mailserver
+    ports:
+      - "25:25"
+      - "143:143"
+      - "465:465"
+      - "587:587"
+      - "993:993"
+    volumes:
+      - ./docker-data/dms/mail-data/:/var/mail/
+      - ./docker-data/dms/mail-state/:/var/mail-state/
+      - ./docker-data/dms/mail-logs/:/var/log/mail/
+      - ./docker-data/dms/config/:/tmp/docker-mailserver/
+      - /etc/letsencrypt/:/etc/letsencrypt/:ro
+    environment:
+      - TZ=Europe/Brussels
+    env_file:
+      - ./mailserver.env
+    restart: unless-stopped
