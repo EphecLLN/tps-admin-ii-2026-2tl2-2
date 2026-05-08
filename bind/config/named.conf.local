@@ -1,0 +1,5 @@
+zone "l2-2.ephec-ti.be" {
+    type master;
+    file "/etc/bind/zones/l2-2.zone";
+    allow-query { any; };
+};

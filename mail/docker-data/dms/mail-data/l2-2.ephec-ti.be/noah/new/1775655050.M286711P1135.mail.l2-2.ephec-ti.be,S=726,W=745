@@ -1,0 +1,19 @@
+Return-Path: <root@mail.l2-2.ephec-ti.be>
+Delivered-To: noah@l2-2.ephec-ti.be
+Received: from mail.l2-2.ephec-ti.be
+	by mail.l2-2.ephec-ti.be with LMTP
+	id sD7sEIpY1mlvBAAAs8Qtnw
+	(envelope-from <root@mail.l2-2.ephec-ti.be>)
+	for <noah@l2-2.ephec-ti.be>; Wed, 08 Apr 2026 15:30:50 +0200
+Received: by mail.l2-2.ephec-ti.be (Postfix, from userid 0)
+	id 43019280077; Wed,  8 Apr 2026 15:30:50 +0200 (CEST)
+To: noah@l2-2.ephec-ti.be
+Subject: Sujet de test
+MIME-Version: 1.0
+Content-Type: text/plain; charset="ANSI_X3.4-1968"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20260408133050.43019280077@mail.l2-2.ephec-ti.be>
+Date: Wed,  8 Apr 2026 15:30:50 +0200 (CEST)
+From: root <root@mail.l2-2.ephec-ti.be>
+
+Test de mon serveur mail
